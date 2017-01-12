@@ -2,7 +2,7 @@
 
 This web app was created as an assignment for a PHP, Python and Perl survey course. It is a site for a 
 fictitious charity that offers an option for users to register as volunteers. 
-The app uses PHP Mailer to send an email verification link to the registered email addresses. Once clicked,
+The app uses [PHP Mailer](https://github.com/PHPMailer/PHPMailer) to send an email verification link to the registered email addresses. Once clicked,
 the email is marked as verified in the database. There is an option for lost password.
 Registered users view an exclusive content homepage. 
 
@@ -15,10 +15,13 @@ Those tutorials were the starting point for this app.
 * PHP interpreter
 * MySQL database
 * PHP server
-* Email address and a password to be accessed by the mailer. 
+* [PHP Mailer, The classic email sending library for PHP](https://github.com/PHPMailer/PHPMailer). 
+* Email address and a password to be accessed by the PHP Mailer library. 
   It may necessary to change the email settings with your provider to allow this 
   type of access. If the mail doesn't go through, check into your settings.
-* In my local development I used [WAMP-- an abbreviated name for the software stack Windows, Apache, MySQL, PHP](http://www.wampserver.com/en/).  
+* In my local development I used [WAMP-- an abbreviated name for the software stack Windows, Apache, MySQL, PHP](http://www.wampserver.com/en/). 
+
+  
 
 ##Setting up the database and server 
 After setting up your WAMP ( or LAMP or whatever you are using) and the local database + PHP + MySQL environment you want: 
