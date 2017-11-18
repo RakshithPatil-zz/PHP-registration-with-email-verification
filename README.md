@@ -5,7 +5,6 @@ fictitious charity that offers an option for users to register as volunteers.
 The app relies on the [PHP Mailer Library](https://github.com/PHPMailer/PHPMailer) to send an email verification link to the registered email addresses. Once the link is clicked,
 the email is marked as verified in the database and the user can sign in to access exclusive content. There is an option for lost password. 
 
-See the sight live on [Heroku](https://immense-ridge-24250.herokuapp.com/)
 
 Thanks to Pradeep Khodke for the [awesome tutorials at Coding Cage](http://www.codingcage.com/2015/08/how-to-send-e-mail-using-phpmailer-and.html).
 Those tutorials were the starting point for this app. Also thank you [Tutorital Republic](http://www.tutorialrepublic.com/php-tutorial/php-mysql-create-database-and-table.php) for the tutorials in creating databases and tables with PHP.
